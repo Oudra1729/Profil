@@ -20,14 +20,12 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
-        <div className='flex justify-center'>
+        <div className='w-full lg:w-1/2 flex justify-center lg:justify-end lg:items-center p-8'>
           <img 
             src={profilepic} 
-            alt='Profile' 
+            alt='Profile picture of Oudra Brahim, Full Stack Developer' 
             className="rounded-full w-48 h-48 lg:w-64 lg:h-64 object-cover"
           />
-          </div>
         </div>
       </div>
     </div>
