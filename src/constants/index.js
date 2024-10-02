@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like 
 Laravel ,Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const ABOUT_CONTENT = `With a strong foundation in computer science and a passion for technology, I have dedicated my career to building user-centered applications that solve real-world problems. I thrive in collaborative environments, where I can leverage my skills in both front-end and back-end development to create seamless experiences. I am continuously learning and adapting to new technologies and trends in the industry, ensuring that I deliver modern, efficient, and scalable solutions. Whether it's optimizing a database query or enhancing user interfaces, I am committed to excellence in every aspect of development.`;
 
 export const EXPERIENCES = [
   {
