@@ -11,7 +11,7 @@ const Experience = () => {
                 className="mb-8 flex flex-wrap lg:justify-center"
                 >
                     <div className="w-full lg:w-1/4">
-                    <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+                    <p className="mb-2 text-sm text-neutral-400">{experience.Duration}</p>
                     </div>
                     <div className="w-fll max-w-xl lg:w-3/4">
                     <h6 className="text-lg font-semibold">{experience.role} -{"  "}
