@@ -10,48 +10,62 @@ export const ABOUT_CONTENT = `With a strong foundation in computer science and a
 export const EXPERIENCES = [
   {
     Duration: "2 Month",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Web Developer (Intern)",
+    company: "Alterweb – Marrakech: (alterweb.ma})",
+    description: `Developed a comprehensive customer, supplier, and invoice management application using Laravel. Integrated Tailwind CSS to
+design a modern and responsive user interface. Implemented CRUD functionalities, authentication, and role-based access control.
+Managed the project workflow through Trello for agile task tracking, and ensured seamless collaboration using Git and GitHub
+for version control. Gained experience in remote teamwork, troubleshooting, and optimizing application performance`,
+    technologies: ["Trello", "Laravel", "GitHub", "Tailwind CSS","Git"],
   },
   {
-    Duration: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    Duration: "2 Month",
+    role: "Project: Water management application for a local association(Freelance)",
+    company: "local association",
+    description: `Developed an application to manage customers, meter readings, and water bills using Laravel. Built functionalities for customer
+management, payments, and real-time statistics. Implemented secure access through a role-based permission system. Utilized
+Bootstrap for responsive and consistent CSS styling, ensuring a clean and user-friendly interface. Focused on enhancing both
+performance and user experience through efficient design and data management practices.`,
+    technologies: ["HTML", "Bootstrap CSS", "Laravel", "mySQL"],
   },
   {
-    Duration: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    Duration: "Month",
+    role: "Web Developer (Final Project)",
+    company: "New Generation Center – Errachidia",
+    description: `Developed a custom management system for the New Generation Center to streamline their operations. The system included functionalities for managing clients, staff, and schedules, with a user-friendly interface and secure access controls. The project involved designing a responsive front-end using modern web development tools and optimizing the back-end for efficient data management. The platform significantly reduced the administrative workload by automating key tasks and centralizing data access.`,
+    technologies: ["React", "Node.js", "MongoDB", "Bootstrap", "Git"],
   },
-  {
-    Duration: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   Duration: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Web Developer (Final Year Project(PFE))",
+    image: project4,
+    role: "Web Developer (Final Year Project)",
+    company: "ISTA Mohammed El-Fassi Errachidia",
+    description: `Developed a web application for home search, allowing users to buy, sell, or rent properties. This project aimed to create a secure and reliable platform using Laravel, which included features such as user registration and login, advanced property search, and management of real estate advertisements. Additionally, I implemented a communication system that facilitates transactions between users and advertisers, enhancing user experience and engagement.`,
+    technologies: ["Laravel", "MySQL", "HTML", "CSS", "JavaScript", "Git"],
+  },
   {
     title: "E-Commerce Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "Bootstrap CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Intern management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "Laravel", "MySQL"],
   },
   {
     title: "Portfolio Website",
@@ -61,11 +75,10 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Ecole-gestion-tkinter-app- ",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description: `Designed and developed a desktop application using Python and Tkinter to manage school operations. The application provides functionalities to manage student records, staff information, class schedules, and attendance. It includes features for generating reports, tracking performance, and managing administrative tasks. This project allowed the school staff to efficiently organize and access data, improving the overall management of the institution.`,
+    technologies: ["Python", "Tkinter", "SQLite", "Git"],
   },
 ];
 
