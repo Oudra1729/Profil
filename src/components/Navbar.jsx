@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logoo.JPEG';
+import logo from '../assets/logoo.jpeg';
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa"; // Updated Twitter icon
 
