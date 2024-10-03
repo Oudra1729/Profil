@@ -35,13 +35,6 @@ performance and user experience through efficient design and data management pra
     description: `Developed a custom management system for the New Generation Center to streamline their operations. The system included functionalities for managing clients, staff, and schedules, with a user-friendly interface and secure access controls. The project involved designing a responsive front-end using modern web development tools and optimizing the back-end for efficient data management. The platform significantly reduced the administrative workload by automating key tasks and centralizing data access.`,
     technologies: ["React", "Node.js", "MongoDB", "Bootstrap", "Git"],
   },
-  // {
-  //   Duration: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
 ];
 
 export const PROJECTS = [
