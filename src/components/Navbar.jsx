@@ -7,12 +7,10 @@ const Navbar = () => {
   return (
     <nav>
       <div className="mb-20 flex items-center justify-between py-6">
-        {/* Logo */}
         <div className="flex flex-shrink-0 items-center">
           <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
         </div>
 
-        {/* Social Icons */}
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
           <a href="https://github.com/Oudra1729" aria-label="Github" target="_blank" rel="noopener noreferrer">
             <FaGithub />
@@ -21,7 +19,7 @@ const Navbar = () => {
             <FaLinkedin />
           </a>
           <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
-            <FaTwitterSquare /> {/* Updated to correct Twitter icon */}
+            <FaTwitterSquare /> 
           </a>
           <a href="https://www.instagram.com/its_o_udra/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
