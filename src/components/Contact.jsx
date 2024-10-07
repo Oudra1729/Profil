@@ -12,6 +12,7 @@ const Contact = () => {
       >
         Get in Touch
       </motion.h1>
+      
       <div className="text-center tracking-tighter">
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -29,12 +30,14 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a className="border-b">{CONTACT.email}</a>
+        <a className="border-b" href={`mailto:${CONTACT.email}`}>
+          {CONTACT.email}
+        </a>
       </div>
       
       {/* Copyright Section */}
       <div className="mt-10 text-center text-sm text-gray-500">
-        <p>© {new Date().getFullYear()}Oudr@Brahim</p>
+        <p>© {new Date().getFullYear()} Oudr@Brahim</p>
       </div>
     </div>
   );
